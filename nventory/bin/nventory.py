@@ -31,7 +31,7 @@ if os.path.isfile("/opt/nventory/database/database.db-journal"):
             print("ERROR:")
             raw_input("The audit database is LOCKED! Press ENTER to continue after changes are applied and database is unlocked.")
         else:
-            print("The audit database is now unlocked. Proceeding with AB5K.")
+            print("The audit database is now unlocked. Proceeding with nventory.")
             locked = False
 
 checking = True
