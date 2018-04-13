@@ -32,6 +32,10 @@ A light-weight NMAP wrapper based on https://github.com/argp/nmapdb.
 ### What's next?
 
 Everything else from this point is straight-forward. You can use list files (-iL) for inventorying multiple hosts.
+
+All working elemets of this software are located at: `/opt/nventory`
+Actual database location: `/opt/nventory/database/database.db`
+
 Feel free to fork it / break it / bop it.
 
 # nmapdb
