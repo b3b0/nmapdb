@@ -37,7 +37,7 @@ Everything else from this point is straight-forward.
 
 You can use list files (-iL) for inventorying multiple hosts.
 
-You can explicitly type specifc single hosts for inventory as well.
+You can explicitly type specific single hosts for inventory as well.
 
 All working elements of this software are located at `/opt/nventory`.
 
