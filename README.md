@@ -13,6 +13,8 @@
 
 A light-weight NMAP wrapper based on https://github.com/argp/nmapdb.
 
+![alt text](https://i.imgur.com/BhtEOMg.png "nventory!")
+
 ### Dependencies:
 1. Linux, MacOSX
 1. python2
@@ -31,9 +33,13 @@ A light-weight NMAP wrapper based on https://github.com/argp/nmapdb.
 
 ### What's next?
 
-Everything else from this point is straight-forward. You can use list files (-iL) for inventorying multiple hosts.
+Everything else from this point is straight-forward. 
 
-All working elemets of this software are located at `/opt/nventory`.
+You can use list files (-iL) for inventorying multiple hosts.
+
+You can explicitly type specifc single hosts for inventory as well.
+
+All working elements of this software are located at `/opt/nventory`.
 
 Actual database location: `/opt/nventory/database/database.db`.
 
