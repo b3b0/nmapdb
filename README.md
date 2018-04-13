@@ -13,7 +13,13 @@
 
 A light-weight NMAP wrapper based on https://github.com/argp/nmapdb.
 
-### Setup:
+### Dependencies:
+1. Linux, MacOSX
+1. python2
+2. libsqlite3-dev
+3. pysqlite (https://pypi.python.org/pypi/pysqlite)
+
+### Installation:
 
 1. cd to `$ nventory-master/installer`
 2. `$ sudo python2 install.py`
