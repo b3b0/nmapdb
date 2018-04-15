@@ -55,7 +55,8 @@ publicly.
 
 Example usage:
 
-```$ sudo nmap -A -oX scanme.xml scanme.nmap.org
+```
+$ sudo nmap -A -oX scanme.xml scanme.nmap.org
 
 Starting Nmap ...
 
@@ -74,7 +75,8 @@ options:
 ```
 
 Use -c to create a database from the schema on the first run:
-```$ ./nmapdb.py -c nmapdb.sql -d myscan.db scanme.xml
+```
+$ ./nmapdb.py -c nmapdb.sql -d myscan.db scanme.xml
 $ file myscan.db
 myscan.db: SQLite 3.x database
 $ sqlite3 myscan.db
@@ -88,7 +90,8 @@ sqlite> select * from ports;
 
 Subsequent scans can be entered into the same database:
 
-```$ ./nmapdb.py -d myscan.db bar.xml foo.xml host1.xml host2.xml \
+```
+$ ./nmapdb.py -d myscan.db bar.xml foo.xml host1.xml host2.xml \
     host3.xml host4.xml meh.xml (or simply *.xml)
 $ sqlite3 myscan.db
 SQLite version 3.7.7 ...
