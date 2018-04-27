@@ -45,6 +45,12 @@ Actual database location: `/opt/nventory/database/database.db`.
 
 Feel free to fork it / break it / bop it.
 
+# FUTURE PLANS
+
+- Create a man page
+- Create DEB and RPM packages
+- Release v1.0
+
 # nmapdb
 
 nmapdb parses nmap's XML output files and inserts them into an SQLite database.
